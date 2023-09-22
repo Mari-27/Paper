@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Playfair Display;
+    src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,700;1,400&display=swap");
+}
+body {
+    background-color:  rgba(0, 0, 0, 0.2);
+    font-family: 'Playfair Display', serif;
+    min-width: 1200px;
+
+}
+a {
+    text-decoration: none;
+    color: #000;
+  }
+  .wrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+.container {
+    box-sizing: border-box;
+   width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+.header {
+   background-image: url(../img/IMAGE.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+   z-index: 0;
+}
+.header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  .logo {
+    width: 120px;
+   
+  }
+  .nav {
+    margin-top: 35px; 
+    margin-left: 58px;
+   
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+}
+
+  .nav-list li:first-child {
+    margin-right: auto;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 0px;
+    color: #FFFFFF;
+    padding: 30px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .layer-header {
+width: 949px;
+margin-bottom: 289px;
+margin-top: 289px;
+margin-left: 246px;
+opacity: 0.76;
+z-index: -2;
+
+  }
+.layers-caption {
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 154px;
+text-align: center;
+color: #FFFFFF;
+}
+.layers-title {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.ghost-button-rounded-corners {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+    margin-left: 640px;
+    height: 44px;
+    width: 160px;
+    padding: 12px 9px 9px 12px;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+  }
+  .ghost-button-rounded-corners:hover,
+  .ghost-button-rounded-corners:active {
+    background-color: #fff;
+    color: #000;
+  }
+  .living-room {
+    background-image: url(../img/IMAGE\ \(1\).jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+  }
+.flowers {
+    background-image: url(../img/IMAGE\ \(2\).jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+}
+.sunlight {
+    background-image: url(../img/IMAGE\ \(3\).jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+}
+.looking {
+    background-image: url(../img/IMAGE\ \(4\).jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+}
